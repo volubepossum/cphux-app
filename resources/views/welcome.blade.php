@@ -19,12 +19,12 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   @livewireStyles
-
-
 </head>
 
 <body>
-  <!-- your content here... -->
-  @livewireScripts
+
+sanyi
+
+@livewireScripts
 </body>
 </html>
