@@ -13,5 +13,8 @@ use App\Http\Controllers\ResponseController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/asd',[ResponseController::class, 'index']);
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/responses',[ResponseController::class, 'index']);
+Route::get('/responses/{id}',[ResponseController::class, 'show']);
